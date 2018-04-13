@@ -1,0 +1,22 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "The Complete JavaScript Course: Build a Real-World Project course project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sreckovic/9-forkify.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sreckovic/9-forkify/issues"
+  },
+  "homepage": "https://github.com/sreckovic/9-forkify#readme",
+  "devDependencies": {
+    "webpack": "^4.5.0"
+  }
+}
