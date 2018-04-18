@@ -1,4 +1,4 @@
-import * as config from '../../../config';
+import { params } from '../../../config';
 import axios from 'axios';
 
 export default class Search {
@@ -7,9 +7,8 @@ export default class Search {
   }
 
   async getResults() {
-    const proxy = 'https://cors-anywhere.herokuapp.com/';
-    // const proxy = 'https://crossorigin.me/';
-    const key = config.params.key;
+    const proxy = params.proxy;
+    const key = params.key;
     try {
       const res = await axios(
         `${proxy}http://food2fork.com/api/search?key=${key}&q=${this.query}`
