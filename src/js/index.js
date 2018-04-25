@@ -10,7 +10,6 @@ import { elements, renderLoader, clearLoader } from './views/base';
 
 // Global state of the app
 const state = {};
-window.state = state;
 
 // Search Controller
 const controlSearch = async () => {
@@ -184,6 +183,3 @@ elements.recipe.addEventListener('click', e => {
     controlLike();
   }
 });
-
-const l = new List();
-window.l = l;
